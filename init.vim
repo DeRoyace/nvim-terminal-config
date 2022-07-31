@@ -82,4 +82,3 @@ colorscheme NeoSolarized
 "let g:airline_theme = 'NeoSolarized'
 let g:airline_theme = 'material' "changing status bar theme
 let g:airline_powerline_fonts = 1 "makes staus bar section arrow head style, set to O to make it normal.
-
