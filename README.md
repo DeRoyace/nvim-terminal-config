@@ -72,6 +72,3 @@ This project is [Apache License 2.0](https://github.com/DeRoyace/nvim-terminal-c
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
-=======
-<img src="https://socialify.git.ci/DeRoyace/nvim-terminal-config/image?description=1&descriptionEditable=This%20ripo%20is%20made%20for%20nvim%20and%20bash%20terminal%20setup%20for%20better%20development%20experience.&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Dark" alt="nvim-terminal-config" width="640" height="320" />
->>>>>>> ce002c15a9c2f8e539ac6f4701cd316e29a6c588
