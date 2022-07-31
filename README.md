@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to nvim-terminal-config 👋</h1>
 <img src="https://socialify.git.ci/DeRoyace/nvim-terminal-config/image?description=1&descriptionEditable=This%20ripo%20is%20made%20for%20nvim%20and%20bash%20terminal%20setup%20for%20better%20development%20experience.&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Dark" alt="nvim-terminal-config"  />
-<br>
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/DeRoyace/nvim-terminal-config/blob/master/README.md" target="_blank">
@@ -16,7 +16,12 @@
 
 > Configuring terminal (bash) and Neovim or Vim for developer experience like that in VScode.
 
-### 🏠 [Homepage](https://github.com/DeRoyace/nvim-terminal-config)
+## 📷 Screenshots:
+<img src="images/bash_terminal.png" alt="" />
+<img src="images/vim_editor.png" alt="" />
+<br>
+
+## 🏠 [Homepage](https://github.com/DeRoyace/nvim-terminal-config)
 
 ## Requires:
 * Neovim Version 0.7.2 or above, links here: https://github.com/neovim/neovim/releases/tag/v0.7.2
