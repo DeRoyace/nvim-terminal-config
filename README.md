@@ -73,7 +73,7 @@ nvim testfile.txt
 * Github: [@DeRoyace](https://github.com/DeRoyace)
 * LinkedIn: [@rohit-roy-51b2b6222](https://linkedin.com/in/rohit-roy-51b2b6222)
 
-## Show your support <img src="https://user-images.githubusercontent.com/88644839/182035669-4393bc12-8507-4aca-986a-6cb2c45b405a.png" width="25px" />
+## <img src="https://user-images.githubusercontent.com/88644839/182035669-4393bc12-8507-4aca-986a-6cb2c45b405a.png" width="27px" /> Show your support
 
 Give a <img src="https://img.shields.io/github/stars/deroyace/nvim-terminal-config?color=darkcyan&label=%E2%AD%90%20Starred"/> if this project helped you!
 
