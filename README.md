@@ -19,7 +19,6 @@
 ## 📷 Screenshots:
 <img src="images/bash_terminal.png" alt="" />
 <img src="images/vim_editor.png" alt="" />
-<br>
 
 ## 🏠 [Homepage](https://github.com/DeRoyace/nvim-terminal-config)
 
@@ -27,6 +26,21 @@
 
 * <a href="https://github.com/neovim/neovim/releases/tag/v0.7.2">Neovim</a> Version 0.7.2 or above.
 * <a href="https://github.com/VundleVim/Vundle.vim">Vundle </a>Plugin Manager 
+
+## 🔌 Plugins Used:
+* <a href="https://github.com/vim-airline/vim-airline">Airline</a> lean & mean status/tabline for vim that's light as air.
+* <a href="https://github.com/preservim/nerdtree">NERDTree</a> a file system explorer for the Vim editor.
+* <a href="https://github.com/terryma/vim-multiple-cursors">Multiple Cursors</a> True Sublime Text style multiple selections for Vim.
+* <a href="https://github.com/ap/vim-css-color">CSS Color</a> A very fast, multi-syntax context-sensitive color name highlighter.
+* <a href="https://github.com/ryanoasis/vim-devicons">Vim Devicons</a> Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more
+* <a href="https://github.com/neoclide/coc.nvim">Conquer of Completion (COC)</a> Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.
+* <a href="https://github.com/preservim/tagbar">Tagbar</a> a class outline viewer for Vim
+* <a href="https://github.com/nvim-treesitter/nvim-treesitter">Treesitter</a> syntax highlighter (**experimental use).
+* <a href="https://github.com/turbio/bracey.vim">Bracey</a> plugin for live preview: html, css, and javascript editing in vim.
+* <a href="https://github.com/pacha/vem-tabline">Tabline</a> A lightweight Vim/Neovim plugin to display buffers and tabs in the tabline.
+* <a href="https://github.com/tribela/vim-transparent">Vim transparent</a> Remove all background color on Vim.
+* <a href="https://github.com/kaicataldo/material.vim">Material</a> color scheme for vim.
+* <a href="https://github.com/overcache/NeoSolarized">NeoSolarized</a> Another solarized color theme for truecolor neovim / vim.
 
 ## ⚙ Installation Guide:
 > ⚠️ <strong style="color:crimson">WARNING:</strong> Before doing anything below, make sure you create a backup for your ```.bashrc``` file.
