@@ -24,7 +24,7 @@
 
 ## 📌 Requires:
 
-* <a href="https://github.com/neovim/neovim/releases/tag/v0.7.2">Neovim</a> Version 0.7.2 or above.
+* <a href="https://github.com/neovim/neovim/releases/tag/v0.7.2">Neovim</a> Version **0.7.2** or above.
 * <a href="https://github.com/VundleVim/Vundle.vim">Vundle </a>Plugin Manager 
 
 ## 🔌 Plugins Used:
@@ -43,26 +43,43 @@
 * <a href="https://github.com/overcache/NeoSolarized">NeoSolarized</a> Another solarized color theme for truecolor neovim / vim.
 
 ## ⚙ Installation Guide:
-> ⚠️ <strong style="color:crimson">WARNING:</strong> Before doing anything below, make sure you create a backup for your ```.bashrc``` file.
-### Linux:
-#### Go to Home > Open terminal > copy the following commands:
+
+> #### Go to **Home** > Open terminal > copy the following commands:
+### **Clone the reposiotry:**
 ```sh
 git clone https://github.com/DeRoyace/nvim-terminal-config
-cat > nvim-terminal-config/init.vim ~/.config/nvim/init.vim # config Neovim
-cat > nvim-terminal-config/bashrc .bashrc # config terminal
-vim ~/.config/nvim/init.vim # all your nvim config present here now
-:PluginInstall # to install all the plugins and get ready with your nvim setup.
 ```
+### Bash Terminal Setup:
+> ⚠️ **WARNING:** Before doing anything below, make sure you create a backup for your ```.bashrc``` file.
+>```sh
+>cat > nvim-terminal-config/bashrc .bashrc
+>```
+### Neovim / Vim Setup:
+```sh
+cat > nvim-terminal-config/init.vim ~/.config/nvim/init.vim
+```
+> All your nvim config are present here ```~/.config/nvim/init.vim```
+> Open nvim / vim and then ```:PluginInstall``` and hit **ENTER** to install all the plugins and get ready with your **nvim setup**.
 
-## 🔰 Usage
-#### Open your terminal and create a testfile:
+## 🔰 Usage for Nvim / Vim
+#### Open your terminal and create a ```testfile.txt```:
 ```sh
 nvim testfile.txt
-:TransparentDisable # by default the init.vim is configured to transparent mode. You can disable it by simply doing :TransparentDisable
-:NERDTree # or CTRL + E to open an file explorer window in the editor
-:TagbarToggle # open the tags (e.g. macros, functions, varibales, etc.) in that file
-:term # to open terminal in the editor
 ```
+* By default the init.vim is configured to **transparent mode**. You can disable it by simply doing ```:TransparentDisable``` and enable it by doing```:TransparentEnable```
+
+* To open a file explorer in the editor do this
+```:NERDTree``` or ```CTRL + E ```
+
+* To see the class outline or tags e.g. *macros, functions, varibales, etc.*, do this```:TagbarToggle ```
+
+* To open terminal in the editor ```:term```
+### 🔠 Keymaps:
+* ```ALT + ⬆``` to move line Up.
+* ```ALT + ⬇``` to move line Down.
+
+* ```CTRL + ⬆``` to copy line Up. 
+* ```CTRL + ⬇``` to copy line Down 
 
 ## Author ✍
 
