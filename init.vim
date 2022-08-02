@@ -51,6 +51,10 @@ vnoremap <A-Up> :m '<-2<CR>gv=gv
 nnoremap <C-D> yyp
 nnoremap <C-U> yyP
 
+"Press F9 --> previous tab, and F10 --> next tab: 
+map <F9> :bprevious<CR>
+map <F10> :bnext<CR>
+
 "-------------------------------------------------------------------------------------------------------------------------------
 "												Editor Background Color Theme
 "-------------------------------------------------------------------------------------------------------------------------------
@@ -82,3 +86,8 @@ colorscheme NeoSolarized
 "let g:airline_theme = 'NeoSolarized'
 let g:airline_theme = 'material' "changing status bar theme
 let g:airline_powerline_fonts = 1 "makes staus bar section arrow head style, set to O to make it normal.
+
+"------------------------------------------------------------------------------------------------------------------------------
+"														Smart Tab line: 
+"------------------------------------------------------------------------------------------------------------------------------
+let g:airline#extensions#tabline#enabled = 1
