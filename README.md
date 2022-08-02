@@ -1,24 +1,27 @@
-<h1 style="text-align: center; font-weight:bold">Welcome to <span style="color:chocolate">nvim-terminal-config</span> 👋</h1>
+<h1 style="text-align: center; font-weight:bold">Welcome to <font color="chocolate">nvim-terminal-config</font> 👋</h1>
 <img src="https://socialify.git.ci/DeRoyace/nvim-terminal-config/image?description=1&descriptionEditable=This%20repo%20is%20made%20for%20nvim%20and%20bash%20terminal%20setup%20for%20better%20development%20experience.&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Dark" alt="nvim-terminal-config"  />
 
 <p style="text-align: center">
-  <img alt="Version" src="https://img.shields.io/badge/version-v0.1-red.svg?cacheSeconds=2592000&style=flat" height="25px" />
+  <img alt="Version" src="https://img.shields.io/badge/version-v0.1-red.svg?cacheSeconds=2592000&style=flat" height="24px" />
   <a href="https://github.com/DeRoyace/nvim-terminal-config/blob/master/README.md" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-✔-success.svg" height="25px"/>
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-✔-success.svg" height="24px"/>
   </a>
   <a href="https://github.com/DeRoyace/nvim-terminal-config/blob/master/LICENSE" target="_blank">
-    <img alt="License: Apache License 2.0" src="https://img.shields.io/github/license/DeRoyace/nvim-terminal-config?color=darkcyan&style=flat" height="25px" />&nbsp
+    <img alt="License: Apache License 2.0" src="https://img.shields.io/github/license/DeRoyace/nvim-terminal-config?color=darkcyan&style=flat" height="24px" />
   </a>
+  <a href="https://github.com/DeRoyace">
+    <img alt="Github-followers" src="https://img.shields.io/github/followers/deroyace?color=gold&logo=github" height="24px" />
+  </a>&nbsp
   <a href="https://twitter.com/deRohitRoyace" target="_blank">
-    <img alt="Twitter: deRohitRoyace" src="https://img.shields.io/twitter/follow/deRohitRoyace.svg?style=social" height="25px"/>
+    <img alt="Twitter: deRohitRoyace" src="https://img.shields.io/twitter/follow/deRohitRoyace.svg?style=social" height="24px"/>
   </a>
 </p>
 
-> Configuring terminal (bash) and Neovim for developer experience like that in VScode.
+<font size="+1"> Configuring <strong>terminal</strong> (bash) and <strong>Neovim</strong> for developer experience like that in <a href="https://code.visualstudio.com/">VScode</a>.</font>
 
 ## 📷 Screenshots:
-<img src="images/bash_terminal.png" alt="" />
-<img src="images/vim_editor.png" alt="" />
+<img src="images/bash_terminal.png" alt="Terminal-snapshot" />
+<img src="images/vim_editor.png" alt="Vim-editor-snapshot" />
 
 ## 🏠 [Homepage](https://github.com/DeRoyace/nvim-terminal-config)
 
@@ -66,20 +69,24 @@ cat > nvim-terminal-config/init.vim ~/.config/nvim/init.vim
 ```sh
 nvim testfile.txt
 ```
-* By default the init.vim is configured to **transparent mode**. You can disable it by simply doing ```:TransparentDisable``` and enable it by doing```:TransparentEnable```
+* By default the init.vim is configured to **transparent mode**. You can disable it by simply doing ```:TransparentDisable``` and enable it by doing ```:TransparentEnable```
 
-* To open a file explorer in the editor do this
-```:NERDTree``` or ```CTRL + E ```
+* To open a file explorer in the editor do this ```:NERDTree``` or ```CTRL + E ```
 
-* To see the class outline or tags e.g. *macros, functions, varibales, etc.*, do this```:TagbarToggle ```
+* To see the class outline or tags e.g. *macros, functions, varibales, etc.*, do this ```:TagbarToggle ```
 
 * To open terminal in the editor ```:term```
+* To open smart tab line ```:tabnew```
+
 ### 🔠 Keymaps:
 * ```ALT + ⬆``` to move line Up.
 * ```ALT + ⬇``` to move line Down.
 
 * ```CTRL + ⬆``` to copy line Up. 
-* ```CTRL + ⬇``` to copy line Down 
+* ```CTRL + ⬇``` to copy line Down.
+
+* ```F9``` go to previous tab.
+* ```F10``` go to next tab.
 
 ## Author ✍
 
