@@ -21,6 +21,7 @@
 
 ## 📷 Screenshots:
 <img src="images/bash_terminal.png" alt="Terminal-snapshot" />
+<img src="images/nvim_editor_transparent.png" alt="Nvim-editor-snapshot" />
 <img src="images/vim_editor.png" alt="Vim-editor-snapshot" />
 
 ## 🏠 [Homepage](https://github.com/DeRoyace/nvim-terminal-config)
