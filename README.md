@@ -55,11 +55,11 @@ git clone https://github.com/DeRoyace/nvim-terminal-config
 ### Bash Terminal Setup:
 > ⚠️ **WARNING:** Before doing anything below, make sure you create a backup for your ```.bashrc``` file.
 >```sh
->cat > nvim-terminal-config/bashrc .bashrc
+> cp nvim-terminal-config/bashrc .bashrc
 >```
 ### Neovim / Vim Setup:
 ```sh
-cat > nvim-terminal-config/init.vim ~/.config/nvim/init.vim
+cp nvim-terminal-config/init.vim ~/.config/nvim/init.vim
 ```
 > All your nvim config are present here ```~/.config/nvim/init.vim```
 > Open nvim / vim and then ```:PluginInstall``` and hit **ENTER** to install all the plugins and get ready with your **nvim setup**.
